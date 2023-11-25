@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@1,9..144,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+  display: flex;
+  width: 1440px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* Christofer frutas */
+.fruit{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+  .cherry {
+    position: absolute;
+    text-align: center;
+    margin: 400px;
+    margin-right: 1100px;
+    width: 350px;
+  }
+  .gra{
+    color: #2A6155;
+  }
+  .gra-che{
+    color: #4F8F7F;
+  }
+  .photo{
+    color: #0B4F6D;
+  }
+  .ora-pho{
+    color: #126088;
+  }
+  .orange {
+    position: absolute;
+    text-align: center;
+    margin: 400px;
+    margin-left: 1100px;
+    width: 300px;
+  }
+
+
+
+/* Christofer Footer */
+footer {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #90d4c5;}
+h1 {
+    color: #2d7464;
+    font-weight: 900;
+    font-size: 50px;
+    margin-bottom: 10px;
+  }
+
+.asp a {
+    text-decoration: none;
+    padding: 100px 30px;
+    margin: 5px 0;
+    color: #2d7466;
+    border-radius: 5px;
+  }
+.social-network {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 40px;
+}
+ .social-network img{
+    width: 60px;
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+.contenedor{
+    display: flex;
+    font-family: 'Fraunces' ;
+    font-weight: 700;
+    align-items: center;
+    justify-content: space-around;
+}
+.contenedor_dos{
+
+    margin-left: 100px;
+    margin-right: 80px;
+}
+.transformador{
+
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-weight: bolder;
+}
+.texto{
+    margin-bottom: 30px;
+}
+.learn{
+    font-size: 18px
+}
+.contenedor_two{
+    display: flex;
+    align-items: center;
+    font-family: 'Fraunces' ;
+    font-weight: 700;
+}
+.contenedor_3{
+
+    margin-left: 100px;
+    margin-right: 80px;
+}
+
+
+.container1{
+    width: 1440px;
+  }
+.main-img img{
+  height: 443px;
+
+}
+
+
+
+
+.producto1{
+    background-image: url(./images/desktop/image-transform.jpg); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+}
+.contenidop{
+    text-align: left; 
+    max-width: 600px; 
+    margin: auto; 
+}
+.contenidop h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold; 
+}
+.contenidop h1,
+.contenidop p,
+.contenidop h3 {
+    margin: 20px 80px; 
+    text-align: left;
+    
+}
+.decoracion1 {
+    border-bottom: 10px solid rgba(160, 160, 36, 0.473); /* Subrayado de color amarillo */
+    display: inline-block; 
+    padding-bottom: -20px; /* Espacio entre el texto y el subrayado */
+    border-radius: 10px;
+}
+.decoracion2 {
+    border-bottom: 10px solid rgba(173, 2, 216, 0.473); /* Subrayado de color amarillo */
+    display: inline-block; 
+    padding-bottom: -20px; /* Espacio entre el texto y el subrayado */
+    border-radius: 10px;
+}
+.producto2{
+    background-image: url(./images/desktop/image-stand-out.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+}
+.decoracion {
+    border-bottom: 10px solid rgba(223, 223, 16, 0.473); /* Subrayado de color amarillo */
+    display: inline-block; 
+    padding-bottom: -20px; /* Espacio entre el texto y el subrayado */
+    border-radius: 10px;
+}
+/*--- header ----*/
+
+header{
+    font-family: 'Barlow', sans-serif;
+    width: 1440px;
+    height: 500px;
+    background-image: url(./images/desktop/image-header.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+header .content-nav{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+}
+
+header .content-nav .logo{
+    font-size: 30px;
+    font-weight: 900;
+    padding-left: 20px;
+    color: #fff;
+}
+
+header .content-nav nav ul{
+    display: flex;
+    width: 330px;
+    justify-content: space-around;
+    padding-right: 30px;
+}
+
+header .content-nav nav ul li{
+    list-style: none;
+}
+
+header .content-nav nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 15px;
+    transition: all ease-in-out .5s;
+}
+
+header .content-nav nav ul li a:hover{
+    color: black;
+    padding: 5px 15px;
+    border-radius: 15px;
+    background-color: #fff;
+    
+}
+
+header .content-portada{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-portada h2{
+    font-size: 50px;
+    color: #fff;
+    padding-top: 20px;
+    font-family: 'Fraunces', serif;
+}
+
+
+.producto-producto-3{
+    width: 960px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.figure{
+    text-align: center;
+    
+}
+
+.imagenes{
+    width: 480px;
+}
+
